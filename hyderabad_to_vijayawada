@@ -1,0 +1,22 @@
+digraph Route {
+	rankdir=LR size=12
+	H [label=Hyderabad]
+	S1 [label=Suryapet]
+	S2 [label=Kodad]
+	S3 [label=Nandigama]
+	S4 [label=Ibrahimpatnam]
+	S5 [label=Gollapudi]
+	V [label=Vijayawada]
+	H -> S1 [label="1 hr
+60 km"]
+	S1 -> S2 [label="30 min
+50 km"]
+	S2 -> S3 [label="40 min
+45 km"]
+	S3 -> S4 [label="25 min
+30 km"]
+	S4 -> S5 [label="15 min
+15 km"]
+	S5 -> V [label="10 min
+10 km"]
+}
